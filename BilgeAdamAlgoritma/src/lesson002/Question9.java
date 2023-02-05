@@ -9,7 +9,8 @@ public class Question9 {
 		System.out.println("Bir karakter Giriniz");
 		char k  = scanner.next().charAt(0);
 		
-		if (k == 'a'||k == 'e'||k == 'ı' ||k == 'i' ||k == 'o' ||k == 'ö' ||k == 'u' ||k == 'ü' ) {
+		if (k == 'a'||k == 'e'||k == 'ı' ||k == 'i' ||k == 'o' ||k == 'ö' ||k == 'u' ||k == 'ü' ||
+			k == 'A'||k == 'E'||k == 'I' ||k == 'İ' ||k == 'O' ||k == 'Ö' ||k == 'U' ||k == 'Ü') {
 			System.out.println("Girilen karakter ünlüdür");
 		} else {
 			System.out.println("Girilen karakter ünsüz veya alfabetik değildir");
